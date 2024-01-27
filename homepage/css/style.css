@@ -79,3 +79,27 @@ a:hover, a:visited, a:active {
         color: #474747;
         font-size: 1.6rem;
     }
+
+    /*==== FOOTER ====*/
+    .page-footer::before {
+        content: " ";
+        display: block;
+        height: 5px;
+        background-image: url(../images/);
+
+    }
+    .page-footer {
+    background: #f7f7f7;
+    color: #9b9b9b;
+    font-size: 1rem;
+    height: 70px;
+    }
+    .page-footer-content {
+        padding: 1em 0;
+        }
+    .page-footer .copyright {
+        float: left;        
+    }
+    .page-footer .credits {
+        float: right;
+    }
