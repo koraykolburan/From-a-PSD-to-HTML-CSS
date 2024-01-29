@@ -51,6 +51,10 @@ a:hover, a:visited, a:active {
     clear: both;
   }
 
+.data-block {
+    margin-bottom: 3rem;
+}
+
 /*==== HEADER ====*/
 .page-header {
     border-top: 5px solid #ebebeb;
@@ -101,7 +105,30 @@ a:hover, a:visited, a:active {
         .main-visual figcaption > strong {
             font-size: 1.4em;
         }
+    
+    /*==== CLAIMS ====*/
+    .claim {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+    }
+        .claim:last-child {
+            margin-right: 0;
+        }
 
+        .claim header > i {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #9a9a9a;
+            float: left;
+            width: 25%;
+        }
+
+        .claim header > h2 {
+            float: left;
+            width: 75%;
+        }
+    
     /*==== FOOTER ====*/
     .page-footer::before {
         content: " ";
