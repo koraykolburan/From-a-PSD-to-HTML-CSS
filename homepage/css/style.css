@@ -60,6 +60,12 @@ a:hover, a:visited, a:active {
     border-top: 5px solid #ebebeb;
     padding-bottom: 2em;
     }
+    .page-header h1 {
+        position: absolute;
+        overflow: hidden;
+        top: -100%;
+        left: -100%;
+    }
     .page-header > div {
         position: relative;
     }
@@ -129,6 +135,49 @@ a:hover, a:visited, a:active {
             width: 75%;
         }
     
+    /*==== PORTFOLIO ====*/
+    .portfolio {
+        position: relative;
+    }
+
+    .portfolio::before {
+        content: " ";
+        display: block;
+        height: 30px;
+        background: url(../images/pattern.png) left top repeat-x;
+        margin-bottom: 2em;
+    }
+
+    .portfolio .title-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .portfolio h2 {
+        display: inline;
+        background: #fff;
+        padding: 0.8em;
+    }
+
+    .work {
+        float: left;
+        width: 22%;
+        margin-right: 4%;
+    }
+    .work:last-child {
+        margin-right: 0;
+    }
+    .work figure > img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .work figure {
+        margin-bottom: 1em;
+    }
+
     /*==== FOOTER ====*/
     .page-footer::before {
         content: " ";
